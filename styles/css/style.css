@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: normal;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #000;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+}
+
+.navbar {
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.navbar-center__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-center__list .navbar-center__link {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 12px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.navbar-center__list .navbar-center__link:hover {
+  text-decoration: underline;
+  color: #adadad;
+}
+
+.navbar-flexend__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbar-flexend__list .navbar-flexend__link {
+  margin-left: 20px;
+  color: #808080;
+  font-size: 12px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.navbar-flexend__list .navbar-flexend__link:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.falcon-heavy__description {
+  width: 100%;
+  height: 1269px;
+  background-image: url("../../img/earth.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.description-content {
+  text-align: center;
+  margin-top: 120px;
+}
+
+.description-content .description-title {
+  font-size: 64px;
+}
+
+.description-content .description-subtitle {
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.description-content .description-line__wrapper {
+  margin-top: 28px;
+}
+
+.description-content .description-line__wrapper .description-line {
+  padding-bottom: 59px;
+  border: 1px solid #FFFFFF;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.description-content .description-img {
+  margin: auto;
+}
+
+.stats-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stats-container .overview-title {
+  width: 177px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 140%;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+}
+
+.stats-container .overview-flex {
+  width: 506px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.stats-container .overview-flex .overview-stat__name p {
+  margin-bottom: 19px;
+  font-size: 18px;
+}
+
+.stats-container .overview-flex .overview-stat__value p {
+  margin-bottom: 19px;
+  font-size: 18px;
+}
+
+.stats-container .overview-flex .gray {
+  color: #808080;
+}
+
+.stats-container .stats-text__perfomance {
+  margin-top: 218px;
+}
+
+.stats-container .stats-text__perfomance .perfomance-title {
+  width: 173px;
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.stats-container .stats-text__perfomance .perfomance-subtitle {
+  margin-top: 45px;
+  width: 490px;
+  font-size: 16px;
+  line-height: 29px;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 179px;
+}
+
+.footer .footer-flex {
+  height: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 43px;
+}
+
+.footer .footer-list a {
+  color: #fff;
+  font-size: 18px;
+  margin-left: 20px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.footer .footer-list a:hover {
+  text-decoration: underline;
+  color: #adadad;
+}
+
+.footer .footer-questions {
+  margin-top: 28px;
+  font-size: 18px;
+  color: #808080;
+}
+
+.footer .footer-button {
+  margin-top: 30px;
+  background: none;
+  color: #fff;
+  padding: 20px 86px 19px 87px;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  font-size: 18px;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.footer .footer-button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.show-image {
+  width: 100%;
+  height: 100%;
+  background: url("../../img/pashalka).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1280px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .container {
+    width: 960px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+}
